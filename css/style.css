@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100&;
+}
+header{
+	background-color: #F0FFF0;
+	padding-top: 30px;
+	
+
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+
+}
+.justify_center{
+	justify-content: center;
+}
+.align_center{
+	align-items: center;
+}
+
+
+/*---Header Section CSS Start----*/
+
+.logo{
+	flex-basis: 20%;
+	max-width: 20%;
+
+}
+.logo a{
+
+}
+.logo a img{
+
+}
+nav{
+	flex-basis: 80%;
+	max-width: 80%;
+
+}
+.btn{
+	background: #21B573;
+	border-radius: 33px;
+	padding: 7px 20px;
+	border-radius: 25px;
+	color: #fff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	padding: 8px 25px;
+	transition-duration: 0.3s;
+	border-radius: 30px;
+
+}
+nav ul{
+	list-style: none;
+	justify-content: flex-end;	
+
+}
+nav ul li{
+
+
+}
+nav ul li a{
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #413960;
+text-decoration: none;
+padding: 8px 25px;
+transition-duration: 0.3s;
+border-radius: 30px;
+}
+
+nav ul li a:hover{
+background: #21B573;
+border-radius: 33px;
+color: #fff;
+}
+
+.col-1-2{
+	flex-basis: 50%;
+	max-width: 50%;
+	}
+
+.header_section .col-1-2{
+	flex-basis: 50%;
+	max-width: 50%;
+
+}
+.header_section .col-1-2 img{
+	max-width: 100%;
+}
+.header_section{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.header_section span{
+	color: red;
+}
+.header_section h1{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 70px;
+	color: #000000;
+	max-width: 400px;
+}
+.header_section h1 span{
+	color: #413960;
+
+}
+
+.header_section p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 36px;
+	color: #6C6B6B;
+	padding: 20px 0;
+	max-width: 400px;
+}
+.header_section .btn{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transition-duration: 0.3s;
+}
+
+.header_section .btn:hover{
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.header_section img{
+
+}
+
+/*---Header Section CSS End----*/
+
+
+/*---Topic Section CSS Start----*/
+
+
+.topic_section{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.topic_section .col-1-4{
+	flex-basis: 25%;
+	max-width: 25%;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+.topic_section .features{
+	text-align: center;
+	background: #F8FFFB;
+	border-radius: 10px;
+	padding: 50px 15px;
+	transition-duration: 0.3s;
+}
+
+.topic_section .features:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.topic_section .features img{
+	height: 75px;
+
+}
+.topic_section .features h3{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+}
+.topic_section .features p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+
+}
+
+
+/*---Topic Section CSS End----*/
+
+
+
+/*-----Online Section CSS Start------*/
+
+.online_section{	
+
+}
+.online_section .header_section{
+	
+
+
+}
+.online_section .header_section h2{
+	text-align: center;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+}
+
+.online_courses{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.col-1-3{
+	flex-basis: 33.333%;
+	max-width: 33.333%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.online_section .online_courses .upcoming_online_courses{
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+
+.course_shedule{
+	margin-top: 50px;
+}
+
+
+.online_section .online_courses img{
+	max-width: 100%;
+
+}
+
+.online_section .online_courses h3{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-top: 15px;
+	padding-bottom: 5px;
+
+}
+
+.online_section .online_courses p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	padding-bottom: 20px;
+}
+
+.online_section .online_courses .btn{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transition-duration: 0.3s;
+}
+
+
+.online_section .online_courses .btn:hover{
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.online_section .online_courses .course_shedule .left-col{
+	flex-basis: 65%;
+	max-width: 65%;
+	box-sizing: border-box;
+	
+}
+
+.online_section .online_courses .course_shedule .left-col .calender{
+	flex-basis: 13%;
+	max-width: 13%;
+	box-sizing: border-box;
+}
+
+.online_section .online_courses .course_shedule .left-col .date{
+	flex-basis: 87%;
+	max-width: 87%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	justify-content: center;
+}
+
+.online_section .online_courses .course_shedule .right-col{
+	flex-basis: 35%;
+	max-width: 35%;
+	box-sizing: border-box;
+	
+}
+
+.online_section .online_courses .course_shedule .right-col .people{
+	flex-basis: 30%;
+	max-width: 30%;
+	box-sizing: border-box;
+	
+}
+
+.online_section .online_courses .course_shedule .right-col .people_number{
+	flex-basis: 70%;
+	max-width: 70%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	
+}
+
+
+.online_section .online_courses .course_shedule img{
+	max-width: 70%;
+}
+	
+
+.online_section .online_courses .course_shedule p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    padding-bottom: 0;
+}
+
+
+/*-----Online Section CSS End------*/
+
+/*-----Testimonial Section CSS Start------*/
+
+.testimonial_section{
+	align-items: center;
+}
+.testimonial_section h2{
+	text-align: center;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	padding: 20px 0;
+}
+.testimonial_image_section{
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.testimonial_section .testimonial_image_section .profile_pic{
+	text-align: center;
+	flex-basis: 30%;
+	max-width: 30%;
+}
+
+.testimonial_section .testimonial_image_section .testimonial_para{
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+.testimonial_section .testimonial_image_section img{
+	max-width: 35%;
+	margin-left: 90px;
+	}
+.testimonial_section .testimonial_image_section p{
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;	
+
+}
+
+
+/*-----Testimonial Section CSS End------*/
+
+
+
+/*-----Footer Section CSS Start------*/
+
+
+.footer_section{
+	background-color: #282531;
+}
+.footer_section .footer_menu{
+	
+padding: 70px 0;
+
+}
+.footer_section .footer_menu .fotter_text_col{
+	flex-basis: 40%;
+	max-width: 40%;
+	flex-wrap: wrap;
+
+}
+.footer_section .footer_menu .fotter_text_col .footer_paragraph{
+
+}
+
+.footer_section .footer_menu .fotter_text_col .footer_paragraph p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+.footer_section .footer_menu .fotter_menu_col{
+	flex-basis: 60%;
+	max-width: 60%;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.footer_section .footer_menu .fotter_menu_col .col-1-3{
+	flex-basis: 33.333%;
+	max-width: 33.333%;
+	justify-content: center;
+	box-sizing: border-box;
+	align-items: center;
+
+}
+.footer_section .footer_menu .fotter_menu_col .col-1-3 ul{
+
+}
+.footer_section .footer_menu .fotter_menu_col .col-1-3 ul li{
+	list-style: none;
+}
+.footer_section .footer_menu .fotter_menu_col .col-1-3 ul li a{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.footer_section .copyright_section{
+
+}
+.footer_section .copyright_section p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #CDCDCD;
+	text-align: center;
+	padding: 27px 0;
+}
+
+
+
+.footer_section .footer_menu .col-1-3{
+	padding: 0 45px;
+
+}
+
+
+
+
+/*-----Footer Section CSS End------*/
+
+@media(max-width: 1400px) {
+	.container{
+		width: 1000px;
+	}
+}
